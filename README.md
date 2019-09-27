@@ -1,2 +1,4 @@
 # curso_Ionic
-aprendendo tudo sobre ionic, para projetar futuramente o TCC
+aprendendo tudo sobre ionic, conceitos básicos
+
+github do curso: https://github.com/pauloanalista/Curso-de-Ionic-4
