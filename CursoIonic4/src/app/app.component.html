@@ -1,0 +1,27 @@
+<ion-app>
+  <!-- split = dividido -->
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+
+      <ion-content>
+        <ion-list>
+          <ion-menu-toggle auto-hide="false" *ngFor="let pagina of paginas"> <!-- enquanto existir páginas -->
+            <ion-item [routerDirection]="'root'" [routerLink]="[pagina.url]">
+              <ion-icon slot="start" [name]="pagina.icone"></ion-icon>
+              <ion-label>
+                {{pagina.titulo}}
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <!-- conteúdo fica aqui -->
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

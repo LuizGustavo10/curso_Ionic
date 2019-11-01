@@ -1,0 +1,3 @@
+ionic cordova build android     -> construidno apk para android
+ionic generate -> auxilia a criar estrutura do projeto
+ionic generate page Botoes -> rodar comando do angular que vai gerar pagina de botoes
