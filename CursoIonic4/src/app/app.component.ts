@@ -14,8 +14,7 @@ export class AppComponent {
   //criando as páginas
   paginas : any[] = [
     {titulo: "Home", icone: 'home', url:'/home'},
-    {titulo: "Lista", icone: 'list', url:'/list'},
-    {titulo: "Ajuda", icone: 'logo-ionic', url:'/list'}
+    {titulo: "Instalação", icone: 'home', url: '/instalacao'}
  
     
   ];
