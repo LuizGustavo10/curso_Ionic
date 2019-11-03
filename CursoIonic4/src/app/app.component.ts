@@ -14,7 +14,8 @@ export class AppComponent {
   //criando as páginas
   paginas : any[] = [
     {titulo: "Home", icone: 'home', url:'/home'},
-    {titulo: "Instalação", icone: 'home', url: '/instalacao'}
+    {titulo: "Instalação", icone: 'home', url: '/instalacao'},
+    {titulo: "Layout", icone: 'home', url: '/layout'}
  
     
   ];

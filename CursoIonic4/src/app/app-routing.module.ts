@@ -15,7 +15,17 @@ const routes: Routes = [
     path: 'list',
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
   },
-  { path: 'instalacao', loadChildren: './instalacao/instalacao.module#InstalacaoPageModule' }
+  { path: 'instalacao',
+   loadChildren: './instalacao/instalacao.module#InstalacaoPageModule' 
+  },
+   { path: 'layout',
+   loadChildren: './layout/layout.module#LayoutPageModule' 
+  },
+  { path: 'layout-header-footer', loadChildren: './layout-header-footer/layout-header-footer.module#LayoutHeaderFooterPageModule' },
+  { path: 'layout-tabs', loadChildren: './layout-tabs/layout-tabs.module#LayoutTabsPageModule' },
+  { path: 'layout-menu', loadChildren: './layout-menu/layout-menu.module#LayoutMenuPageModule' },
+  { path: 'layout-split-pane', loadChildren: './layout-split-pane/layout-split-pane.module#LayoutSplitPanePageModule' }
+  
 ];
 
 @NgModule({
