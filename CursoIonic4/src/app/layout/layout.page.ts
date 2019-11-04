@@ -14,9 +14,11 @@ export class LayoutPage implements OnInit {
 
   ngOnInit() {
   }
-  //aqui vai meus métodos
+  //aqui vai meus métodos, dos botões
+  //cada botão redireciona para uma página, 
   openLayoutHeaderFooter(){
     this.navCtrl.navigateForward('layout-header-footer');
+    //faça o ionic generate e cria uma pagina e coloque no parenteses acima
   }
   openLayoutTabs(){
     this.navCtrl.navigateForward('layout-tabs');
