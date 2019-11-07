@@ -20,16 +20,9 @@ export class LayoutPage implements OnInit {
     this.navCtrl.navigateForward('layout-header-footer');
     //faça o ionic generate e cria uma pagina e coloque no parenteses acima
   }
-  openLayoutTabs(){
-    this.navCtrl.navigateForward('layout-tabs');
-
-  }
-  openLayoutMenu(){
-    this.navCtrl.navigateForward('layout-menu');
-
-  }
-  openLayoutSplit(){
-    this.navCtrl.navigateForward('layout-split-pane');
+//função para navegar para paginas
+  abrirPagina(nomeDaPagina : string){
+    this.navCtrl.navigateForward(nomeDaPagina);
 
   }
 
