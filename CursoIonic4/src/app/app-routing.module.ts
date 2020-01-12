@@ -27,7 +27,8 @@ const routes: Routes = [
   { path: 'layout-split-pane', loadChildren: './layout-split-pane/layout-split-pane.module#LayoutSplitPanePageModule' },
   { path: 'layout-grid', loadChildren: './layout-grid/layout-grid.module#LayoutGridPageModule' },
   { path: 'layout-css-utilities', loadChildren: './layout-css-utilities/layout-css-utilities.module#LayoutCssUtilitiesPageModule' },
-  { path: 'componentes', loadChildren: './componentes/componentes.module#ComponentesPageModule' }
+  { path: 'componentes', loadChildren: './componentes/componentes.module#ComponentesPageModule' },
+  { path: 'ComponentActionSheet', loadChildren: './component-action-sheet/component-action-sheet.module#ComponentActionSheetPageModule' }
   
 ];
 
