@@ -29,7 +29,8 @@ const routes: Routes = [
   { path: 'layout-css-utilities', loadChildren: './layout-css-utilities/layout-css-utilities.module#LayoutCssUtilitiesPageModule' },
   { path: 'componentes', loadChildren: './componentes/componentes.module#ComponentesPageModule' },
   { path: 'ComponentActionSheet', loadChildren: './component-action-sheet/component-action-sheet.module#ComponentActionSheetPageModule' },
-  { path: 'ComponentAlert', loadChildren: './component-alert/component-alert.module#ComponentAlertPageModule' }
+  { path: 'ComponentAlert', loadChildren: './component-alert/component-alert.module#ComponentAlertPageModule' },
+  { path: 'ComponentBadge', loadChildren: './component-badge/component-badge.module#ComponentBadgePageModule' }
   
 ];
 
