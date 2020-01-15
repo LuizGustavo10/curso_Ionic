@@ -31,7 +31,8 @@ const routes: Routes = [
   { path: 'ComponentActionSheet', loadChildren: './component-action-sheet/component-action-sheet.module#ComponentActionSheetPageModule' },
   { path: 'ComponentAlert', loadChildren: './component-alert/component-alert.module#ComponentAlertPageModule' },
   { path: 'ComponentBadge', loadChildren: './component-badge/component-badge.module#ComponentBadgePageModule' },
-  { path: 'ComponentButton', loadChildren: './component-button/component-button.module#ComponentButtonPageModule' }
+  { path: 'ComponentButton', loadChildren: './component-button/component-button.module#ComponentButtonPageModule' },
+  { path: 'ComponentCard', loadChildren: './component-card/component-card.module#ComponentCardPageModule' }
   
 ];
 
