@@ -33,7 +33,8 @@ const routes: Routes = [
   { path: 'ComponentBadge', loadChildren: './component-badge/component-badge.module#ComponentBadgePageModule' },
   { path: 'ComponentButton', loadChildren: './component-button/component-button.module#ComponentButtonPageModule' },
   { path: 'ComponentCard', loadChildren: './component-card/component-card.module#ComponentCardPageModule' },
-  { path: 'ComponentCheckbox', loadChildren: './component-checkbox/component-checkbox.module#ComponentCheckboxPageModule' }
+  { path: 'ComponentCheckbox', loadChildren: './component-checkbox/component-checkbox.module#ComponentCheckboxPageModule' },
+  { path: 'ComponentRadio', loadChildren: './component-radio/component-radio.module#ComponentRadioPageModule' }
   
 ];
 
