@@ -34,7 +34,8 @@ const routes: Routes = [
   { path: 'ComponentButton', loadChildren: './component-button/component-button.module#ComponentButtonPageModule' },
   { path: 'ComponentCard', loadChildren: './component-card/component-card.module#ComponentCardPageModule' },
   { path: 'ComponentCheckbox', loadChildren: './component-checkbox/component-checkbox.module#ComponentCheckboxPageModule' },
-  { path: 'ComponentRadio', loadChildren: './component-radio/component-radio.module#ComponentRadioPageModule' }
+  { path: 'ComponentRadio', loadChildren: './component-radio/component-radio.module#ComponentRadioPageModule' },
+  { path: 'ComponentDatetime', loadChildren: './component-datetime/component-datetime.module#ComponentDatetimePageModule' }
   
 ];
 
