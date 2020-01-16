@@ -37,7 +37,8 @@ const routes: Routes = [
   { path: 'ComponentRadio', loadChildren: './component-radio/component-radio.module#ComponentRadioPageModule' },
   { path: 'ComponentDatetime', loadChildren: './component-datetime/component-datetime.module#ComponentDatetimePageModule' },
   { path: 'ComponentFab', loadChildren: './component-fab/component-fab.module#ComponentFabPageModule' },
-  { path: 'ComponentInput', loadChildren: './component-input/component-input.module#ComponentInputPageModule' }
+  { path: 'ComponentInput', loadChildren: './component-input/component-input.module#ComponentInputPageModule' },
+  { path: 'ComponentList', loadChildren: './component-list/component-list.module#ComponentListPageModule' }
   
 ];
 
