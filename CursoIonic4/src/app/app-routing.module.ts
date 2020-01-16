@@ -39,7 +39,9 @@ const routes: Routes = [
   { path: 'ComponentFab', loadChildren: './component-fab/component-fab.module#ComponentFabPageModule' },
   { path: 'ComponentInput', loadChildren: './component-input/component-input.module#ComponentInputPageModule' },
   { path: 'ComponentList', loadChildren: './component-list/component-list.module#ComponentListPageModule' },
-  { path: 'ComponentLoading', loadChildren: './component-loading/component-loading.module#ComponentLoadingPageModule' }
+  { path: 'ComponentLoading', loadChildren: './component-loading/component-loading.module#ComponentLoadingPageModule' },
+  { path: 'ComponentModal', loadChildren: './component-modal/component-modal.module#ComponentModalPageModule' },
+  { path: 'ComponentModalInterno', loadChildren: './component-modal-interno/component-modal-interno.module#ComponentModalInternoPageModule' }
   
 ];
 
