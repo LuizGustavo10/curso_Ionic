@@ -38,7 +38,8 @@ const routes: Routes = [
   { path: 'ComponentDatetime', loadChildren: './component-datetime/component-datetime.module#ComponentDatetimePageModule' },
   { path: 'ComponentFab', loadChildren: './component-fab/component-fab.module#ComponentFabPageModule' },
   { path: 'ComponentInput', loadChildren: './component-input/component-input.module#ComponentInputPageModule' },
-  { path: 'ComponentList', loadChildren: './component-list/component-list.module#ComponentListPageModule' }
+  { path: 'ComponentList', loadChildren: './component-list/component-list.module#ComponentListPageModule' },
+  { path: 'ComponentLoading', loadChildren: './component-loading/component-loading.module#ComponentLoadingPageModule' }
   
 ];
 
