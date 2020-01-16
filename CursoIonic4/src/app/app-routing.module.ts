@@ -36,7 +36,8 @@ const routes: Routes = [
   { path: 'ComponentCheckbox', loadChildren: './component-checkbox/component-checkbox.module#ComponentCheckboxPageModule' },
   { path: 'ComponentRadio', loadChildren: './component-radio/component-radio.module#ComponentRadioPageModule' },
   { path: 'ComponentDatetime', loadChildren: './component-datetime/component-datetime.module#ComponentDatetimePageModule' },
-  { path: 'ComponentFab', loadChildren: './component-fab/component-fab.module#ComponentFabPageModule' }
+  { path: 'ComponentFab', loadChildren: './component-fab/component-fab.module#ComponentFabPageModule' },
+  { path: 'ComponentInput', loadChildren: './component-input/component-input.module#ComponentInputPageModule' }
   
 ];
 
