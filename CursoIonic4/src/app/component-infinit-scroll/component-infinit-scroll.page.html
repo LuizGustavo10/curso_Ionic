@@ -5,17 +5,18 @@
   
     </ion-buttons>
     
-    <ion-title>Infint Scroll</ion-title>
+    <ion-title>Infinit Scroll</ion-title>
 
     
    
   </ion-toolbar>
+  </ion-header>
 
 <ion-content padding>
   <ion-list>
     <ion-label *ngFor="let numero of numeros | slice:0:limit"> </ion-label>
       <ion-item >
-        <!-- {{numero}} -->
+         <!-- {{numero}} -->
     </ion-item>
   </ion-list>
   <ion-infinite-scroll (ionInfinite)="popularInfinite($event)" >
