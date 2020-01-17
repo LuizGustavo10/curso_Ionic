@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+  
+    </ion-buttons>
+    
+    <ion-title>Select</ion-title>
+   
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-list-header>
+      Selec Simples
+      <ion-item>
+      <ion-label>Sexo</ion-label>
+      <ion-select placeholder="Selecione">
+        <ion-select-option value="M">
+          Masculino
+        </ion-select-option>
+        <ion-select-option value="F">
+          Feminino
+        </ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Cor</ion-label>
+      <ion-select placeholder="Selecione" value="azul" okText="Selecionar" cancelText="Cancelar">
+        <ion-select-option value="pink">
+          Rosa
+        </ion-select-option>
+        <ion-select-option value="blue">
+          Azul
+        </ion-select-option>
+        <ion-select-option value="black">
+          Preto
+        </ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    </ion-list-header>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
+      Select Multíplo
+    </ion-list-header>
+    <ion-item>
+      <ion-label>Cor</ion-label>
+      <ion-select multiple="true">
+        <ion-select placeholder="Selecione" value="azul" okText="Selecionar" cancelText="Cancelar">
+          <ion-select-option value="pink">
+            Rosa
+          </ion-select-option>
+          <ion-select-option value="blue">
+            Azul
+          </ion-select-option>
+          <ion-select-option value="black">
+            Preto
+          </ion-select-option>
+        </ion-select>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
+      Select Customizado
+    </ion-list-header>
+    <ion-item>
+      <ion-label>Alerta</ion-label>
+
+      <ion-select multiple="true">
+        <ion-select [interfaceOptions]="customAlertOptions" interface="alert" placeholder="Selecione" value="azul" okText="Selecionar" cancelText="Cancelar">
+          <ion-select-option value="pink">
+            Rosa
+          </ion-select-option>
+          <ion-select-option value="blue">
+            Azul
+          </ion-select-option>
+          <ion-select-option value="black">
+            Preto
+          </ion-select-option>
+        </ion-select>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
+
