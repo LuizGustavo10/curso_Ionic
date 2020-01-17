@@ -46,7 +46,8 @@ const routes: Routes = [
   { path: 'ComponentSelect', loadChildren: './component-select/component-select.module#ComponentSelectPageModule' },
   { path: 'ComponentSlide', loadChildren: './component-slide/component-slide.module#ComponentSlidePageModule' },
   { path: 'ComponentSpinner', loadChildren: './component-spinner/component-spinner.module#ComponentSpinnerPageModule' },
-  { path: 'ComponentToast', loadChildren: './component-toast/component-toast.module#ComponentToastPageModule' }
+  { path: 'ComponentToast', loadChildren: './component-toast/component-toast.module#ComponentToastPageModule' },
+  { path: 'ComponentInfinitScroll', loadChildren: './component-infinit-scroll/component-infinit-scroll.module#ComponentInfinitScrollPageModule' }
   
 ];
 
