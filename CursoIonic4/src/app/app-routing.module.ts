@@ -41,7 +41,8 @@ const routes: Routes = [
   { path: 'ComponentList', loadChildren: './component-list/component-list.module#ComponentListPageModule' },
   { path: 'ComponentLoading', loadChildren: './component-loading/component-loading.module#ComponentLoadingPageModule' },
   { path: 'ComponentModal', loadChildren: './component-modal/component-modal.module#ComponentModalPageModule' },
-  { path: 'ComponentModalInterno', loadChildren: './component-modal-interno/component-modal-interno.module#ComponentModalInternoPageModule' }
+  { path: 'ComponentModalInterno', loadChildren: './component-modal-interno/component-modal-interno.module#ComponentModalInternoPageModule' },
+  { path: 'ComponentRange', loadChildren: './component-range/component-range.module#ComponentRangePageModule' }
   
 ];
 
