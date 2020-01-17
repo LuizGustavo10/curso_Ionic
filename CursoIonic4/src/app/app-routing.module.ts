@@ -44,7 +44,8 @@ const routes: Routes = [
   { path: 'ComponentModalInterno', loadChildren: './component-modal-interno/component-modal-interno.module#ComponentModalInternoPageModule' },
   { path: 'ComponentRange', loadChildren: './component-range/component-range.module#ComponentRangePageModule' },
   { path: 'ComponentSelect', loadChildren: './component-select/component-select.module#ComponentSelectPageModule' },
-  { path: 'ComponentSlide', loadChildren: './component-slide/component-slide.module#ComponentSlidePageModule' }
+  { path: 'ComponentSlide', loadChildren: './component-slide/component-slide.module#ComponentSlidePageModule' },
+  { path: 'ComponentSpinner', loadChildren: './component-spinner/component-spinner.module#ComponentSpinnerPageModule' }
   
 ];
 
