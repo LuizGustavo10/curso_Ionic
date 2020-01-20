@@ -49,7 +49,8 @@ const routes: Routes = [
   { path: 'ComponentToast', loadChildren: './component-toast/component-toast.module#ComponentToastPageModule' },
   { path: 'ComponentInfinitScroll', loadChildren: './component-infinit-scroll/component-infinit-scroll.module#ComponentInfinitScrollPageModule' },
   { path: 'ComponentPopover', loadChildren: './component-popover/component-popover.module#ComponentPopoverPageModule' },
-  { path: 'ComponentRefresher', loadChildren: './component-refresher/component-refresher.module#ComponentRefresherPageModule' }
+  { path: 'ComponentRefresher', loadChildren: './component-refresher/component-refresher.module#ComponentRefresherPageModule' },
+  { path: 'ComponentSeachbar', loadChildren: './component-seachbar/component-seachbar.module#ComponentSeachbarPageModule' }
   
 ];
 
