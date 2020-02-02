@@ -16,7 +16,9 @@ export class AppComponent {
     {titulo: "Home", icone: 'home', url:'/home'},
     {titulo: "Instalação", icone: 'arrow-dropright-circle', url: '/instalacao'},
     {titulo: "Layout", icone: 'arrow-dropright-circle', url: '/layout'},
-    {titulo: "Componentes", icone: 'arrow-dropright-circle', url: '/componentes'}
+    {titulo: "Componentes", icone: 'arrow-dropright-circle', url: '/componentes'},
+    //api
+    {titulo: "Api Externa", icone: 'arrow-dropright-circle', url: '/apiExterna'}
  
     
   ];
