@@ -51,7 +51,8 @@ const routes: Routes = [
   { path: 'ComponentPopover', loadChildren: './component-popover/component-popover.module#ComponentPopoverPageModule' },
   { path: 'ComponentRefresher', loadChildren: './component-refresher/component-refresher.module#ComponentRefresherPageModule' },
   { path: 'ComponentSeachbar', loadChildren: './component-seachbar/component-seachbar.module#ComponentSeachbarPageModule' },
-  { path: 'apiExterna', loadChildren: './api-externa/api-externa.module#ApiExternaPageModule' }
+  { path: 'apiExterna', loadChildren: './api-externa/api-externa.module#ApiExternaPageModule' },
+  { path: 'animacoes', loadChildren: './animacoes/animacoes.module#AnimacoesPageModule' }
   
 ];
 
