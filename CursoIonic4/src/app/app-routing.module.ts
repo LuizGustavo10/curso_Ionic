@@ -54,7 +54,8 @@ const routes: Routes = [
   { path: 'apiExterna', loadChildren: './api-externa/api-externa.module#ApiExternaPageModule' },
   { path: 'animacoes', loadChildren: './animacoes/animacoes.module#AnimacoesPageModule' },
   { path: 'componentesNativos', loadChildren: './componentes-nativos/componentes-nativos.module#ComponentesNativosPageModule' },
-  { path: 'componenteNativeCamera', loadChildren: './componente-native-camera/componente-native-camera.module#ComponenteNativeCameraPageModule' }
+  { path: 'componenteNativeCamera', loadChildren: './componente-native-camera/componente-native-camera.module#ComponenteNativeCameraPageModule' },
+  { path: 'componenteNativeTextToSpeech', loadChildren: './componente-native-text-to-speech/componente-native-text-to-speech.module#ComponenteNativeTextToSpeechPageModule' }
   
 ];
 
