@@ -52,7 +52,9 @@ const routes: Routes = [
   { path: 'ComponentRefresher', loadChildren: './component-refresher/component-refresher.module#ComponentRefresherPageModule' },
   { path: 'ComponentSeachbar', loadChildren: './component-seachbar/component-seachbar.module#ComponentSeachbarPageModule' },
   { path: 'apiExterna', loadChildren: './api-externa/api-externa.module#ApiExternaPageModule' },
-  { path: 'animacoes', loadChildren: './animacoes/animacoes.module#AnimacoesPageModule' }
+  { path: 'animacoes', loadChildren: './animacoes/animacoes.module#AnimacoesPageModule' },
+  { path: 'componentesNativos', loadChildren: './componentes-nativos/componentes-nativos.module#ComponentesNativosPageModule' },
+  { path: 'componenteNativeCamera', loadChildren: './componente-native-camera/componente-native-camera.module#ComponenteNativeCameraPageModule' }
   
 ];
 
